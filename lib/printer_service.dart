@@ -93,7 +93,7 @@ class PrinterService {
       await Printing.directPrintPdf(
         printer: printer,
         onLayout: (PdfPageFormat format) async => doc.save(),
-        name: 'Job Flutter',
+        name: 'Impressão Logística Shopee',
         usePrinterSettings: true,
       );
     } catch (e) {
